@@ -26,7 +26,7 @@ services:
           #cpus: 0.25
           #memory: 256M
     ports:
-      - 4396:17263 #4396端口映射可自行修改
+      - 17263:17263 #4396端口映射可自行修改
     volumes:
       - /home/reader/logs:/logs #log映射目录 /home/reader/logs 映射目录可自行修改
       - /home/reader/storage:/storage #数据映射目录 /home/reader/storage 映射目录可自行修改
